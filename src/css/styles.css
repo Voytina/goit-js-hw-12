@@ -111,6 +111,19 @@
 .list-item{
   border: 1px solid black;
 }
+.load-button{
+  display: block;
+  height: 100px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 12px;
+  color: white;
+  margin:  0 auto;
+}
+
+.hidden.load-button{
+  display: none;
+}
 .hidden.box__loader{
   display: none;
 }
