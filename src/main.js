@@ -89,3 +89,5 @@ buttonLoadMore.addEventListener('click', async () => {
     console.error(error);
   }
 });
+
+console.log('hello');
