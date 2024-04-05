@@ -57,7 +57,9 @@
 
 
 
-.form button:hover {
+.form button:hover,
+.load-button:hover
+ {
   background: #6c8cff;
 }
 
@@ -113,12 +115,20 @@
 }
 .load-button{
   display: block;
-  height: 100px;
-  width: 200px;
-  background-color: blue;
-  border-radius: 12px;
-  color: white;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
   margin:  0 auto;
+  background-color: #4e75ff;
+  border: none;
+
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .hidden.load-button{
